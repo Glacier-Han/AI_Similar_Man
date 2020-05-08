@@ -82,3 +82,7 @@ button:hover {
 		margin-left: 0%; width: 100%;
 	}
 }
+
+body {
+  font-family: 'Nanum Gothic', sans-serif;
+}

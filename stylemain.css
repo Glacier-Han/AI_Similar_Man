@@ -13,6 +13,9 @@
   color: #8041D9;
 }
 
+body {
+  font-family: 'Nanum Gothic', sans-serif;
+}
 
 #toast {
     position: fixed;
