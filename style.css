@@ -42,7 +42,6 @@ button {
   color: #000;
   display: block;
   font-size: 14px;
-  font-weight: bold;
   margin: 1em auto;
   padding: 11px 60px;
   position: relative;
@@ -84,5 +83,5 @@ button:hover {
 }
 
 body {
-  font-family: 'Nanum Gothic', sans-serif;
+  font-family: 'Yeon Sung', sans-serif;
 }
