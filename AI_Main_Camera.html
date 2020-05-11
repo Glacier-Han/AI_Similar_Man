@@ -117,7 +117,7 @@ function toast(string) {
         // predict can take in an image, video or canvas html element
         const prediction = await model.predict(webcam.canvas);
         prediction.sort((a, b) => parseFloat(b.probability) - parseFloat(a.probability));
-        for (let i = 0; i < maxPredictions; i++) {
+        for (let i = 0; i < 6; i++) {
             const classPrediction =
                 prediction[i].className + " 와(과) " + (prediction[i].probability.toFixed(2))*100 + "% 닮았습니다.";
             labelContainer.childNodes[i].innerHTML = classPrediction;
